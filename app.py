@@ -2,6 +2,10 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
+# ✅ macOS 設定中文字型
+plt.rcParams['font.family'] = 'PingFang TC'
+plt.rcParams['axes.unicode_minus'] = False
+
 # 定義函數 f(x) 與其導數 f'(x)
 def f(x):
     return x**3 - 3*x**2 + 2
