@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-from ipywidgets import interact, FloatSlider
+# from ipywidgets import interact, FloatSlider
 
 # 定義函數 f(x) 與其導數 f'(x)
 def f(x):
