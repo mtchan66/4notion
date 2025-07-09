@@ -3,8 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ✅ macOS 設定中文字型
-plt.rcParams['font.family'] = 'PingFang TC'
-plt.rcParams['axes.unicode_minus'] = False
+# plt.rcParams['font.family'] = 'PingFang TC'
+# plt.rcParams['axes.unicode_minus'] = False
+plt.rcParams['font.family'] = 'Heiti TC'  
 
 # 定義函數 f(x) 與其導數 f'(x)
 def f(x):
