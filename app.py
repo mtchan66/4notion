@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from ipywidgets import interact, FloatSlider
 
 plt.rcParams['font.family'] = 'Heiti TC'  
 
@@ -53,9 +52,3 @@ def plot_secant_tangent(x0=2.0, h=1.0):
     plt.grid(True)
     plt.show()
 
-# 設定滑桿
-# interact(
-#    plot_secant_tangent,
-#    x0=FloatSlider(value=2.0, min=-0.5, max=3.5, step=0.1, description='x₀'),
-#    h=FloatSlider(value=1.0, min=0.01, max=2.0, step=0.05, description='h')
-#)
