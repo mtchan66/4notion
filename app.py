@@ -12,7 +12,7 @@ def f(x):
 def df(x):
     return 3*x**2 - 6*x
 
-st.title("Secant vs Tangent (macOS font version)")
+st.title("Secant vs Tangent")
 
 x0 = st.slider("x₀", min_value=-0.5, max_value=3.5, value=2.0, step=0.1)
 h = st.slider("h", min_value=0.01, max_value=2.0, value=1.0, step=0.05)
