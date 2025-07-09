@@ -1,8 +1,4 @@
 import streamlit as st
-
-st.title("Hello, World!")
-st.write("這是我第一個 Streamlit App 🤗🎉")
-
 import numpy as np
 import matplotlib.pyplot as plt
 from ipywidgets import interact, FloatSlider
@@ -55,3 +51,6 @@ def plot_secant_tangent(x0=2.0, h=1.0):
     plt.legend()
     plt.grid(True)
     plt.show()
+    
+st.title("Hello, World!")
+st.write("這是我第一個 Streamlit App 🤗🎉")
